@@ -23,6 +23,6 @@ public class LogicNot {
     }
 
     public boolean evenOrNotPositive(int num) {
-        return num % 2 == 0 && num < 0;
+        return num % 2 == 0 || num < 0;
     }
 }
