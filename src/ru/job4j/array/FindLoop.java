@@ -11,6 +11,7 @@ public class FindLoop {
         }
         return result;
     }
+
     public static int indexOf(int[] data, int el, int start, int finish) {
         int result = -1;
         for (int index = start; index <= finish; index++) {
